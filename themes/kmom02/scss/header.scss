@@ -1,0 +1,26 @@
+/* Header */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color3;
+}
+
+.header {
+    align-items: center;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color3;
+}
+
+.nav a {
+    color: $color2;
+    text-decoration: none;
+    font-size: 1,5rem;
+}
+
+.nav a:hover {
+    color: $color2;
+    font-size: 1,5rem;
+}

@@ -1,11 +1,11 @@
 ---
-Logo: assets/img/logotyp.jpg
+Logo: assets/img/logo.jpg
 Tagline: My portfolio.
 Social:
-    - title: Link till github repo.
+    - title: Link to my github repo.
       url: https://github.com/nasp22/PA1436-Design
-      icon: github
-    - title: Link till google.
+      icon: fab fa-github
+    - title: Link to google.
       url: https://www.google.se/
-      icon: fa-brands fa-google
+      icon: fab fa-google
 ---
