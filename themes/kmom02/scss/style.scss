@@ -13,6 +13,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 @import 'footer';
 @import 'title';
+@import 'technologies';
+@import 'technology';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
@@ -42,4 +44,5 @@ body {
 .main {
     background-color: $color4;
     padding: 20px;
+    min-width: 70%;
 }
