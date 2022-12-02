@@ -15,22 +15,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'title';
 @import 'technologies';
 @import 'technology';
+@import 'kmom04';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
-/* Resten av min stylesheet */
-
-* {
-    color: $font-color;
-}
-
-ol {
-    padding-left: 1.5em;
-}
-
-ul {
-    padding-left: 1.5em;
-}
 
 html {
     height: 100%;
@@ -46,3 +32,18 @@ body {
     padding: 20px;
     min-width: 70%;
 }
+
+/* Resten av min stylesheet */
+
+* {
+    color: $font-color;
+}
+
+ol {
+    padding-left: 1.5em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+

@@ -1,0 +1,168 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'img';
+@import 'placement';
+@import 'technologies';
+@import 'technology';
+@import 'kmom04';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+// färgschema Komplementär utgående från $color1 (#6b7f7b;)
+
+$color1: #6b7f7b;
+$color2: #332621;
+$color4: #80716b;
+
+$color3: #c0ccca;
+$color5: #263330;
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $color5;
+    height: 100%;
+}
+
+.main {
+    background-color: $color1;
+    padding: 20px;
+    min-width: 70%;
+}
+
+/* Resten av min stylesheet */
+
+* {
+    color: $font-color;
+}
+
+ol {
+    padding-left: 1.5em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+/* Header */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color2;
+}
+
+.header {
+    align-items: center;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color2;
+}
+
+.nav a {
+    color: $color3;
+    text-decoration: none;
+    font-size: 1,5rem;
+}
+
+/* Footer */
+
+.footer {
+    color: $color4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color2;
+}
+
+.footer a {
+    color: $color4;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+* {
+    font-family: $fontstyle;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+body {
+    line-height: 1.5rem;
+    color: $color1;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    color: $color3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    padding: 1em;
+    color: $color3;
+}
+
+/* Title */
+
+.title {
+    padding: 3em 3em 3em 0;
+    flex: 0 0 auto;
+}
+
+.logo {
+    padding: 3em 3em 3em 0;
+    flex: 0 0 auto;
+}
+
+@media (max-width: 767px) {
+    .title {
+        min-width: 50%;
+        padding: 1em 1em 1em 0;
+    }
+    
+    .logo {
+        padding: 1em 1em 1em 0;
+        max-width: 10%;
+        min-width: 10%;
+    }
+}
+
+.title * {
+    flex: left;
+    color: $color3;
+    text-decoration: none;
+}
+
+.title p {
+    flex: left;
+    font-style: italic;
+    color: $color3;
+    text-decoration: none;
+}

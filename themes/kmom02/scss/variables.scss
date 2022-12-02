@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-// Colors in logotyp - left to right ( color-theme )
-$color1: #6b8f6b;
-$color2: #8a6a6b;
-$color3: #fff;
+// // färgschema Komplementär utgående från $color1 (#6b7f7b;)
+
+$color1: #6b7f7b;
+$color2: #80716b;
 $color4: #efe3af;
-$black: #000;
+
+$color3: #c0ccca;
+$color5: #263330;
 
 // font style
 $fontstyle: 'Montserrat', sans-serif;
-$font-color: #000;
+$font-color: $color5;
 $font-alternative-color: #fff;
 
 $accent-color: $color2;
