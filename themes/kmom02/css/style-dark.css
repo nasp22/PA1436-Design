@@ -6458,10 +6458,6 @@ pre code {
   line-height: 1.4;
 }
 
-img {
-  max-width: 100%;
-}
-
 .me {
   width: 20%;
   border-radius: 250px;
@@ -6475,6 +6471,31 @@ img {
 .about {
   width: 40%;
   border: 4px solid #c0ccca;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 200%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Placement */
@@ -6747,6 +6768,12 @@ body {
   grid-column: 2/4;
 }
 
+.pagespeed {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+
 .fargschema {
   position: relative;
   overflow: hidden;
@@ -6762,6 +6789,7 @@ body {
 }
 
 .text {
+  margin-left: 2em;
   position: relative;
   overflow: hidden;
   background-color: #333;

@@ -49,6 +49,7 @@
     }
 }
 
+
 .accentfarg {
     position: relative;
     background-color: #fff;
@@ -60,6 +61,12 @@
     overflow: hidden;
     background-color: #fff;
     grid-column: 2 / 4;
+}
+
+.pagespeed {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
 }
 
 .fargschema {
@@ -77,6 +84,7 @@
 }
 
 .text {
+    margin-left: 2em;
     position: relative;
     overflow: hidden;
     background-color: #333;
