@@ -6559,22 +6559,29 @@ h6 {
 /* Header */
 .site-header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  background-color: #c0ccca;
+  background-color: #fff;
 }
 
 .header {
-  align-items: center;
   padding-left: 10%;
   display: flex;
-  justify-content: space-between;
-  background-color: #c0ccca;
+  flex-direction: column;
+  background-color: #fff;
+  border-bottom: 20px #263330 solid;
 }
 
 .nav a {
+  display: flex;
+  flex-direction: row;
   color: #80716b;
   text-decoration: none;
   font-size: 1, 5rem;
+}
+
+.title {
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -6582,11 +6589,11 @@ h6 {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  background-color: #c0ccca;
+  background-color: #efe3af;
+  color: #efe3af;
 }
 
 .footer a {
-  color: #80716b;
   text-decoration: none;
 }
 
@@ -6596,8 +6603,9 @@ h6 {
 
 /* Title */
 .title {
-  padding: 3em 3em 3em 0;
   flex: 0 0 auto;
+  color: #80716b;
+  font-size: 1.5em;
 }
 
 .logo {
@@ -6609,6 +6617,7 @@ h6 {
   .title {
     min-width: 50%;
     padding: 1em 1em 1em 0;
+    font-size: smaller;
   }
   .logo {
     padding: 1em 1em 1em 0;
@@ -6792,7 +6801,7 @@ h6 {
   flex-direction: row;
   margin: 1em;
   background-color: #80716b;
-  color: #efe3af;
+  color: #fff;
   padding: 1em;
 }
 .tech nav {
@@ -6924,6 +6933,10 @@ h6 {
     grid-row: auto;
   }
 }
+.report {
+  padding: 0.5em;
+}
+
 html {
   height: 100%;
 }
@@ -6934,7 +6947,7 @@ body {
 }
 
 .main {
-  background-color: #efe3af;
+  background-color: #fff;
   padding: 20px;
   min-width: 70%;
 }

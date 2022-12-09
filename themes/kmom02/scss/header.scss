@@ -2,20 +2,27 @@
 
 .site-header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    background-color: $color3;
+    background-color: #fff;
 }
 
 .header {
-    align-items: center;
     padding-left: 10%;
     display: flex;
-    justify-content: space-between;
-    background-color: $color3;
+    flex-direction: column;
+    background-color: #fff;
+    border-bottom: 20px $color5 solid;
 }
 
 .nav a {
+    display: flex;
+    flex-direction: row;
     color: $color2;
     text-decoration: none;
     font-size: 1,5rem;
+}
+
+.title {
+    margin: 0 auto;
 }

@@ -6685,7 +6685,7 @@ body {
   flex-direction: row;
   margin: 1em;
   background-color: #80716b;
-  color: #efe3af;
+  color: #fff;
   padding: 1em;
 }
 .tech nav {
@@ -6817,17 +6817,21 @@ body {
     grid-row: auto;
   }
 }
+.report {
+  padding: 0.5em;
+}
+
 html {
   height: 100%;
 }
 
 body {
-  background-color: #263330;
+  background-color: #6b7f7b;
   height: 100%;
 }
 
 .main {
-  background-color: #6b7f7b;
+  background-color: #263330;
   padding: 20px;
   min-width: 70%;
 }
