@@ -2,7 +2,7 @@
 Title: Home
 Description: This is our index page.
 ---
-![me](%assets_url%/img/Nadja.jpg){.me}
+![me](image/Nadja.jpg){.me}
 
 
 Welcome to my portfolio!

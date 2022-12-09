@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/logo.jpg
+Logo: image/logo.jpg?q=30
 Tagline: My portfolio.
 Social:
     - title: Dark Mode
